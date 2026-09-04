@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+chrome-bwin-live/
+wezabet-ui/
+wezabet-chrome-ui/
+.pids.json
+.pids-wezabet.json
+bwin-odds-log.txt
+bwin-ws-out-log.txt

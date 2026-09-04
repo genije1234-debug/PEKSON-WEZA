@@ -1,0 +1,18 @@
+{
+  "name": "pekson-weza",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bwin vs WezaBet merenje kasnjenja",
+  "scripts": {
+    "install-stack": "powershell -NoProfile -ExecutionPolicy Bypass -File ./install.ps1",
+    "start": "powershell -NoProfile -ExecutionPolicy Bypass -File ./start-wezabet.ps1",
+    "stop": "powershell -NoProfile -ExecutionPolicy Bypass -File ./stop-wezabet.ps1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "puppeteer-core": "^24.43.1"
+  }
+}
